@@ -9,7 +9,9 @@ class Film {
         this.kiadasiEv = kiadasiEv;
      }
 
-
+     toString() {
+         return this.nev + this.rendezo + this.kiadasiEv;
+     }
 }
 
 function ujFilm() {
@@ -32,7 +34,7 @@ function ujFilm() {
     tbltest.appendChild(sor);
   }
   tablazat.appendChild(tbltest);
-  test.appendChild(tablazatbl)
+  test.appendChild(tablazat)
 }
 ujFilm();
       
