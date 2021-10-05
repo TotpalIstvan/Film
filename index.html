@@ -14,18 +14,20 @@
 
 </head>
 <body>
-    <form class="urlap container">
+    <form class="urlap form-group bg-dark container">
         <div>
-        <label>Név:</label><br>
-        <input type="text" name="nev"><br>
-        <label>Rendező:</label><br>
-        <input type="text" name="rendezo"><br>
-        <label>Kiadási év:</label><br>
-        <input type="text" name="kiadasiev"><br>
-        <button class="btn-primary" id="hozzaad" onclick="ujFilm()">Hozzáad</button><br>
-        <button class="btn-secondary" id="listazas">Listázás</button>
+        <label class="text-light">Név:</label><br>
+        <input type="text" name="nev" class="form-control"><br>
+        <label class="text-light">Rendező:</label><br>
+        <input type="text" name="rendezo" class="form-control"><br>
+        <label class="text-light">Kiadási év:</label><br>
+        <input type="text" name="kiadasiev" class="form-control"><br>
+        <button class="btn-primary btn-lg" id="hozzaad" onclick="ujFilm()">Hozzáad</button><br>
+        <button class="btn-secondary btn-lg" id="listazas" onclick="listazas()">Listázás</button>
 
     </form>
+
+    
 </div>
 </body>
 </html>

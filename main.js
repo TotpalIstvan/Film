@@ -15,7 +15,8 @@ class Film {
 }
 
 function torol() {
-
+  let ht = document.getElementById('tabla')
+  ht.remove();
 }
 
 function ujFilm() {
