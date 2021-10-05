@@ -10,10 +10,10 @@ class Film {
      }
 
      toString() {
-         return this.nev + this.rendezo + this.kiadasiEv;
+         return this.nev + " ," +  this.rendezo + " ," +  this.kiadasiEv +".";
      }
-}
 
+    }
 let filmekListaja = [];
 
 function torol() {
@@ -24,9 +24,9 @@ function torol() {
 function ujFilm() {
     torol();
 
-    let nev = document.getElementById("filmNeve").value;
-    let rendezo =  document.getElementById("rendezoNev").value;
-    let kiadasiEv = document.getElementById("kiadas").value;
+    let Filmnev = document.getElementById("filmNeve").value;
+    let Filmrendezo =  document.getElementById("rendezoNev").value;
+    let FilmkiadasiEv = document.getElementById("kiadas").value;
 }
     
 
