@@ -14,9 +14,14 @@ class Film {
      }
 }
 
+function torol() {
+
+}
+
 function ujFilm() {
-    var test = document.getElementsByTagName('body')[0];
-    var tablazat = document.createElement('table');
+    torol();
+    var test = document.body,
+     tablazat = document.createElement('table');
     tablazat.style.width = '100%';
     tablazat.setAttribute('border', '3');
     var tbltest = document.createElement('tbody');
@@ -37,4 +42,8 @@ function ujFilm() {
   test.appendChild(tablazat)
 }
 ujFilm();
+
+function listazas() {
+
+}
       
